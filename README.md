@@ -6,8 +6,8 @@ Connect to the Open Platform for accessing all the content the Guardian creates,
 * Credentials: apiKey
 
 ## How to get credentials: 
-0. Register on [Open platform](https://bonobo.capi.gutools.co.uk/register/developer)
-1. After registration, you'll receive API key by email
+1. Sign-in [Open platform](https://bonobo.capi.gutools.co.uk/register/developer)
+2. After registration, you'll receive API key by email
  
 ## Guardian.searchContent
 You can find all parts of the content in the API
