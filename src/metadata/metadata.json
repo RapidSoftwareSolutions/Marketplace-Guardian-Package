@@ -308,7 +308,7 @@
           "name": "id",
           "type": "String",
           "info": "The ID for an item, such as a piece of content, is the path to that item on the site.",
-          "required": false
+          "required": true
         },
         {
           "name": "section",
