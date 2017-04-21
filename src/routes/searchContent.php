@@ -18,7 +18,7 @@ $app->post('/api/Guardian/searchContent', function ($request, $response) {
 
     foreach ($post_data['args'] as $key=>$item)
     {
-        if(in_array($key, $params) && !empty($key))
+        if(in_array($key, $params) && !empty($item))
         {
             if($key=='query'){
                 $data['q']=$item;
