@@ -14,7 +14,7 @@ $app->post('/api/Guardian/searchContent', function ($request, $response) {
 
     $data = [];
     $data['api-key'] = $post_data['args']['apiKey'];
-    $params = ['query','section','reference','reference-type','tag','rights','ids','production-office','lang','star-rating','from-date','to-date','use-date','page','page-size','order-by','order-date','show-tags','show-fields','show-section','show-blocks','show-elements','show-references','show-rights'];
+    $params = ['query','section','reference','reference-type','tag','rights','ids','production-office','lang','star-rating','from-date','to-date','page','page-size','order-by','order-date','show-tags','show-fields','show-section','show-blocks','show-elements','show-references','show-rights'];
 
     foreach ($post_data['args'] as $key=>$item)
     {

@@ -104,12 +104,6 @@
           "required": false
         },
         {
-          "name": "use-date",
-          "type": "String",
-          "info": "Changes which type of date is used to filter the results using from-date and to-date. Accepted values: published, newspaper-edition, last-modified",
-          "required": false
-        },
-        {
           "name": "page",
           "type": "Number",
           "info": "Return only the result set from a particular page. Example: 5",

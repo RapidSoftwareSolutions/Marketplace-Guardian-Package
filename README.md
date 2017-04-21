@@ -1,7 +1,7 @@
 [![](https://scdn.rapidapi.com/RapidAPI_banner.png)](https://rapidapi.com/package/Trello/functions?utm_source=RapidAPIGitHub_TrelloFunctions&utm_medium=button&utm_content=RapidAPI_GitHub)
 
 # Guardian Package
-Connect to the Guardian API to query and download data from this publication's database. Test an API call and export the code snippet into your app. 
+Connect to the Guardian API to query and download data from this publication's database. Test an API call and export the code snippet into your app.
 * Domain: [theguardian.com](http://theguardian.com)
 * Credentials: apiKey
 
@@ -27,7 +27,6 @@ You can find all parts of the content in the API
 | star-rating      | Number     | Return only content with a given star rating. From 1 to 5
 | from-date        | String     | Return only content published on or after that date. Example: 2014-02-16
 | to-date          | String     | Return only content published on or before that date. Example: 2014-02-17
-| use-date         | String     | Changes which type of date is used to filter the results using from-date and to-date. Accepted values: published, newspaper-edition, last-modified
 | page             | Number     | Return only the result set from a particular page. Example: 5
 | page-size        | Number     | Modify the number of items displayed per page. Accepted values: 1 to 50
 | order-by         | String     | Returns results in the specified order. Accepted values: newest, oldest, relevance
