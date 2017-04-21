@@ -1,7 +1,7 @@
 [![](https://scdn.rapidapi.com/RapidAPI_banner.png)](https://rapidapi.com/package/Trello/functions?utm_source=RapidAPIGitHub_TrelloFunctions&utm_medium=button&utm_content=RapidAPI_GitHub)
 
 # Guardian Package
-Connect to the Open Platform for accessing all the content the Guardian creates, categorised by tags and section.
+Connect to the Guardian API to query and download data from this publication's database. Test an API call and export the code snippet into your app. 
 * Domain: [theguardian.com](http://theguardian.com)
 * Credentials: apiKey
 
@@ -20,7 +20,7 @@ You can find all parts of the content in the API
 | reference        | String     | Return only content with those references. Example: isbn/9780718178949
 | reference-type   | String     | Return only content with references of those types. Example: isbn
 | tag              | String     | Return only content with those tags. Example: technology/apple
-| rights           | String     | Return only content with those rights. Example: syndicatable | subscription-databases
+| rights           | String     | Return only content with those rights. Example: subscription-databases
 | ids              | String     | Return only content with those IDs. Example: technology/2014/feb/17/flappy-bird-clones-apple-google
 | production-office| String     | Return only content from those production offices. Example: aus
 | lang             | String     | Return only content in those languages. ISO language codes. Example: fr
@@ -82,7 +82,7 @@ Returns all the data we have for a given single item id. Here the term 'item' re
 | reference         | String     | Return only content with those references. Example: isbn/9780718178949
 | reference-type    | String     | Return only content with references of those types. Example: isbn
 | tag               | String     | Return only content with those tags. Example: technology/apple
-| rights            | String     | Return only content with those rights. Example: syndicatable | subscription-databases
+| rights            | String     | Return only content with those rights. Example: syndicatable
 | ids               | String     | Return only content with those IDs. Example: technology/2014/feb/17/flappy-bird-clones-apple-google
 | production-office | String     | Return only content from those production offices. Example: aus
 | lang              | String     | Return only content in those languages. ISO language codes. Example: fr

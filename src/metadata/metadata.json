@@ -1,11 +1,13 @@
 {
   "package": "Guardian",
   "tagline": "Guardian API",
-  "description": "",
+  "description": "Connect to the Guardian API to query and download data from this publication's database. Test an API call and export the code snippet into your app. ",
   "image": "https://logo.clearbit.com/theguardian.com",
   "repo": "https://github.com/RapidSoftwareSolutions/Marketplace-Guardian-Package",
   "keywords": [
-    "API"
+    "API",
+    "guardian",
+    "news"
   ],
   "accounts": {
     "domain": "theguardian.com",
@@ -57,7 +59,7 @@
         {
           "name": "rights",
           "type": "String",
-          "info": "Return only content with those rights. Example: syndicatable | subscription-databases",
+          "info": "Return only content with those rights. Example: syndicatable",
           "required": false
         },
         {
@@ -337,7 +339,7 @@
         {
           "name": "rights",
           "type": "String",
-          "info": "Return only content with those rights. Example: syndicatable | subscription-databases",
+          "info": "Return only content with those rights. Example: syndicatable",
           "required": false
         },
         {
