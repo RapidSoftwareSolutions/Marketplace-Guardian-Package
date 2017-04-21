@@ -19,7 +19,7 @@ $app->post('/api/Guardian/getSingleItem', function ($request, $response) {
 
     foreach ($post_data['args'] as $key=>$item)
     {
-        if(in_array($key, $params))
+        if(in_array($key, $params) && !empty($item))
         {
             if($key=='query'){
                 $data['q']=$item;

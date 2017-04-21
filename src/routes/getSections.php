@@ -15,7 +15,7 @@ $app->post('/api/Guardian/getSections', function ($request, $response) {
     $data = [];
     $data['api-key'] = $post_data['args']['apiKey'];
 
-    if(!empty($post_data['args']['query']))
+    if(!empty($post_data['args']['query']) && !empty($item))
     {
         $data['q'] = $post_data['args']['query'];
     }
