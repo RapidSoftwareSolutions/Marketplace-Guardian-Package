@@ -1,4 +1,4 @@
-[![](https://scdn.rapidapi.com/RapidAPI_banner.png)](https://rapidapi.com/package/Trello/functions?utm_source=RapidAPIGitHub_TrelloFunctions&utm_medium=button&utm_content=RapidAPI_GitHub)
+[![](https://scdn.rapidapi.com/RapidAPI_banner.png)](https://rapidapi.com/package/Guardian/functions?utm_source=RapidAPIGitHub_GuardianFunctions&utm_medium=button&utm_content=RapidAPI_GitHub)
 
 # Guardian Package
 Connect to the Guardian API to query and download data from this publication's database. Test an API call and export the code snippet into your app.
