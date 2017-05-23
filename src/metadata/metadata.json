@@ -93,13 +93,13 @@
         },
         {
           "name": "from-date",
-          "type": "String",
+          "type": "DatePicker",
           "info": "Return only content published on or after that date. Example: 2014-02-16",
           "required": false
         },
         {
           "name": "to-date",
-          "type": "String",
+          "type": "DatePicker",
           "info": "Return only content published on or before that date. Example: 2014-02-17",
           "required": false
         },
@@ -117,13 +117,15 @@
         },
         {
           "name": "order-by",
-          "type": "String",
+          "type": "Select",
+          "options": ["newest","oldest","relevance"],
           "info": "Returns results in the specified order. Accepted values: newest, oldest, relevance",
           "required": false
         },
         {
           "name": "order-date",
-          "type": "String",
+          "type": "Select",
+          "options": ["published","newspaper-edition","last-modified"],
           "info": "Returns results in the specified order. Accepted values: published, newspaper-edition, last-modified",
           "required": false
         },
@@ -153,7 +155,8 @@
         },
         {
           "name": "show-elements",
-          "type": "String",
+          "type": "Select",
+          "options": ["audio","image","video","all"],
           "info": "Add associated media elements such as images and audio. Accepted values: audio,image,video,all",
           "required": false
         },
@@ -165,7 +168,8 @@
         },
         {
           "name": "show-rights",
-          "type": "String",
+          "type": "Select",
+          "options": ["syndicatable","subscription-databases","all"],
           "info": "Add associated rights. Accepted values: syndicatable, subscription-databases, all",
           "required": false
         }
@@ -367,13 +371,13 @@
         },
         {
           "name": "from-date",
-          "type": "String",
+          "type": "DatePicker",
           "info": "Return only content published on or after that date. Example: 2014-02-16",
           "required": false
         },
         {
           "name": "to-date",
-          "type": "String",
+          "type": "DatePicker",
           "info": "Return only content published on or before that date. Example: 2014-02-17",
           "required": false
         },
@@ -397,13 +401,15 @@
         },
         {
           "name": "order-by",
-          "type": "String",
+          "type": "Select",
+          "options": ["newest","oldest","relevance"],
           "info": "Returns results in the specified order. Accepted values: newest, oldest, relevance",
           "required": false
         },
         {
           "name": "order-date",
-          "type": "String",
+          "type": "Select",
+          "options": ["published","newspaper-edition","last-modified"],
           "info": "Returns results in the specified order. Accepted values: published, newspaper-edition, last-modified",
           "required": false
         },
@@ -433,7 +439,8 @@
         },
         {
           "name": "show-elements",
-          "type": "String",
+          "type": "Select",
+          "options": ["audio","image","video","all"],
           "info": "Add associated media elements such as images and audio. Accepted values: audio,image,video,all",
           "required": false
         },
@@ -445,7 +452,8 @@
         },
         {
           "name": "show-rights",
-          "type": "String",
+          "type": "Select",
+          "options": ["syndicatable","subscription-databases","all"],
           "info": "Add associated rights. Accepted values: syndicatable, subscription-databases, all",
           "required": false
         },
