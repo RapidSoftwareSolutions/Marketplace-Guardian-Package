@@ -15,7 +15,16 @@ $app->post('/api/Guardian/getSingleItem', function ($request, $response) {
     $data = [];
     $data['api-key'] = $post_data['args']['apiKey'];
     $id = $post_data['args']['id'];
-    $params = ['section','reference','reference-type','tag','rights','ids','production-office','lang','star-rating','from-date','to-date','use-date','page','page-size','order-by','order-date','show-tags','show-fields','show-section','show-blocks','show-elements','show-references','show-rights','show-story-package','show-editors-picks','show-most-viewed','show-related'];
+    $params = ['section','reference','reference-type','tag','rights','ids','production-office','lang','star-rating','use-date','page','page-size','order-by','order-date','show-tags','show-fields','show-section','show-blocks','show-elements','show-references','show-rights','show-story-package','show-editors-picks','show-most-viewed','show-related'];
+
+    if(!empty($post_data['args']['from-date'])){
+        $fromDate = strtotime($post_data['args']['from-date']);
+        $data['from-date'] = date('c',$fromDate);
+    }
+    if(!empty($post_data['args']['to-date'])){
+        $toDate = strtotime($post_data['args']['to-date']);
+        $data['to-date'] = date('c',$toDate);
+    }
 
     foreach ($post_data['args'] as $key=>$item)
     {
