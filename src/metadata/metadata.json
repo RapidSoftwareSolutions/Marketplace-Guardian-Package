@@ -20,6 +20,10 @@
       "apiKey"
     ]
   },
+  "steps": [
+    "Sign-in Open platform (https://bonobo.capi.gutools.co.uk/register/developer)",
+    "After registration, you'll receive API key by email"
+  ],
   "blocks": [
     {
       "name": "searchContent",
